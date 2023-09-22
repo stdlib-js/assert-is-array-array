@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-array-array/tags). For example,
+
+```javascript
 import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@v0.1.0-esm/index.mjs';
 ```
 
@@ -82,7 +87,7 @@ bool = isArrayArray( [ null, {} ] );
 <body>
 <script type="module">
 
-import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@v0.1.0-esm/index.mjs';
+import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@esm/index.mjs';
 
 var bool = isArrayArray( [ [], [], [] ] );
 // returns true
