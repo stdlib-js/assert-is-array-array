@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-array-array/tags). For example,
+
+```javascript
 import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@v0.1.0-deno/mod.js';
 ```
 
@@ -77,7 +82,7 @@ bool = isArrayArray( [ null, {} ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@v0.1.0-deno/mod.js';
+import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@deno/mod.js';
 
 var bool = isArrayArray( [ [], [], [] ] );
 // returns true
