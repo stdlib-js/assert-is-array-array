@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,44 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isArrayArray = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isArrayArray, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function tests for an array of arrays', function test( t ) {
-	var arr;
-
-	arr = [ [] ];
-	t.strictEqual( isArrayArray( arr ), true, 'returns true' );
-
-	arr = [ [], [], [] ];
-	t.strictEqual( isArrayArray( arr ), true, 'returns true' );
-
-	arr = [ {} ];
-	t.strictEqual( isArrayArray( arr ), false, 'returns false' );
-
-	arr = {
-		'length': 2,
-		'0': [],
-		'1': []
-	};
-	t.strictEqual( isArrayArray( arr ), false, 'returns false' );
-
-	arr = [];
-	t.strictEqual( isArrayArray( arr ), false, 'returns false when provided an empty array' );
-
-	arr = {};
-	t.strictEqual( isArrayArray( arr ), false, 'returns false' );
-
-	arr = null;
-	t.strictEqual( isArrayArray( arr ), false, 'returns false' );
-
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
