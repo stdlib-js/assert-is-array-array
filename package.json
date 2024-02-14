@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-array-array",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Test if a value is an array of arrays.",
   "license": "Apache-2.0",
   "author": {
@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-array": "^0.1.1",
-    "@stdlib/assert-tools-array-function": "^0.1.1"
+    "@stdlib/assert-is-array": "^0.2.0",
+    "@stdlib/assert-tools-array-function": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
