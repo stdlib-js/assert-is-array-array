@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@esm/index.mjs';
+import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@v0.2.2-esm/index.mjs';
 ```
 
 #### isArrayArray( value )
@@ -82,7 +82,7 @@ bool = isArrayArray( [ null, {} ] );
 <body>
 <script type="module">
 
-import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@esm/index.mjs';
+import isArrayArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-array-array@v0.2.2-esm/index.mjs';
 
 var bool = isArrayArray( [ [], [], [] ] );
 // returns true
