@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-array-array",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Test if a value is an array of arrays.",
   "license": "Apache-2.0",
   "author": {
